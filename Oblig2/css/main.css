@@ -78,18 +78,6 @@ section {
 }
 
 
-/* main {
-    width: 80%;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #fff;
-    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
-} */
-
-/* section {
-    margin-bottom: 20px;
-} */
-
 footer {
     background-color: #2C3E50;
     color: #fff;
@@ -98,8 +86,13 @@ footer {
     margin-top: 2em;
 }
 
-.second-page-footer {
-    position: fixed;
+
+.second-page-main{
+    position: relative;
+}
+
+.second-page-footer{
+    position: absolute;
     bottom: 0;
     width: 100%;
 }
