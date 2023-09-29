@@ -86,13 +86,11 @@ footer {
     margin-top: 2em;
 }
 
-
-.second-page-main{
-    position: relative;
+.placeholder{
+    min-width: 100px;
 }
 
 .second-page-footer{
-    position: absolute;
     bottom: 0;
     width: 100%;
 }
