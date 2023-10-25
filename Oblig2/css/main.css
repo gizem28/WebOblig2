@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #fff;
 }
 
 article{
@@ -12,6 +12,14 @@ article{
 .navbar {
     background-color: #50b3a2;
     padding: 1em;
+}
+
+.navbar-second{
+background-color: #FFD500;
+}
+
+.navbar-second a{
+    color: #343434 !important;
 }
 
 .navbar ul {
@@ -51,9 +59,19 @@ nav  li {
     padding: 0.5em 0;
 }
 
+.second-page-heading{
+    color: #343434;
+    text-align: center;
+    padding: 0.5em 0;
+}
 
 .sub-title {
     color: #50b3a2;
+    padding: 0.5em;
+}
+
+.sub-title-second{
+    color: #343434;
     padding: 0.5em;
 }
 
@@ -93,4 +111,6 @@ footer {
 .second-page-footer{
     bottom: 0;
     width: 100%;
+    background-color: #FFD500;
+    color: #343434;
 }
